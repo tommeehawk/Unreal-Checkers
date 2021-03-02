@@ -1,0 +1,398 @@
+﻿Log file open, 03/01/21 19:08:28
+LogInit:Display: Running engine for game: MyFirstProject
+LogInit:Display: Project file not found: ../../../MyFirstProject/MyFirstProject.uproject
+LogInit:Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-281243914) SRandInit(-281243896).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.737218
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:06:15
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal-Checkers/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.03.02-03.08.28:565][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.03.02-03.08.28:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2021.03.02-03.08.28:609][  0]LogInit: Computer: DESKTOP-3LTELPB
+[2021.03.02-03.08.28:609][  0]LogInit: User: danme
+[2021.03.02-03.08.28:609][  0]LogInit: CPU Page size=65536, Cores=2
+[2021.03.02-03.08.28:609][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.02-03.08.28:610][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.03.02-03.08.28:610][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.03.02-03.08.28:610][  0]LogMemory: Process Physical Memory: 69.13 MB used, 69.13 MB peak
+[2021.03.02-03.08.28:610][  0]LogMemory: Process Virtual Memory: 83.57 MB used, 83.57 MB peak
+[2021.03.02-03.08.28:610][  0]LogMemory: Physical Memory: 4069.00 MB used, 8057.88 MB total
+[2021.03.02-03.08.28:610][  0]LogMemory: Virtual Memory: 4425.95 MB used, 134217728.00 MB total
+[2021.03.02-03.08.28:667][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2021.03.02-03.08.28:795][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.02-03.08.28:852][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.03.02-03.08.28:852][  0]LogD3D11RHI:       128/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.03.02-03.08.28:858][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.02-03.08.28:858][  0]LogD3D11RHI:       0/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.02-03.08.28:858][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.02-03.08.28:870][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.02-03.08.28:871][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.02-03.08.28:871][  0]LogWindows: EnumDisplayDevices:
+[2021.03.02-03.08.28:871][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.03.02-03.08.28:871][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.03.02-03.08.28:872][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.03.02-03.08.28:872][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.03.02-03.08.28:872][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2021.03.02-03.08.28:872][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.03.02-03.08.28:872][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.03.02-03.08.28:872][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.03.02-03.08.28:904][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.02-03.08.28:912][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.03.02-03.08.29:059][  0]LogAssetRegistry: FAssetRegistry took 0.0081 seconds to start up
+[2021.03.02-03.08.29:062][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003505 seconds
+[2021.03.02-03.08.29:068][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2021.03.02-03.08.29:068][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.03.02-03.08.29:579][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.03.02-03.08.29:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.02-03.08.29:595][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.02-03.08.29:699][  0]LogMoviePlayer: Initializing movie player
+[2021.03.02-03.08.29:796][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../MyFirstProject/Content/Movies/Default_Startup.mp4
+[2021.03.02-03.08.29:876][  0]LogUObjectArray: 27472 objects as part of root set at end of initial load.
+[2021.03.02-03.08.29:876][  0]LogUObjectAllocator: 5680928 out of 0 bytes used by permanent object pool.
+[2021.03.02-03.08.29:876][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.02-03.08.29:888][  0]LogEngine: Initializing Engine...
+[2021.03.02-03.08.29:891][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2021.03.02-03.08.29:893][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2021.03.02-03.08.29:928][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.03.02-03.08.31:278][  0]LogInit: FAudioDevice initialized.
+[2021.03.02-03.08.31:278][  0]LogInit: Texture streaming: Enabled
+[2021.03.02-03.08.31:279][  0]LogModuleManager:Warning: ModuleManager: Module 'MessagingRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2021.03.02-03.08.31:279][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2021.03.02-03.08.31:279][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalServices' not found - its StaticallyLinkedModuleInitializers function is null.
+[2021.03.02-03.08.31:414][  0]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2021.03.02-03.08.31:414][  0]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2021.03.02-03.08.31:444][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.03.02-03.08.31:444][  0]LogMemory: Process Physical Memory: 193.51 MB used, 193.51 MB peak
+[2021.03.02-03.08.31:444][  0]LogMemory: Process Virtual Memory: 253.79 MB used, 253.80 MB peak
+[2021.03.02-03.08.31:444][  0]LogMemory: Physical Memory: 4174.12 MB used, 8057.88 MB total
+[2021.03.02-03.08.31:444][  0]LogMemory: Virtual Memory: 4770.05 MB used, 134217728.00 MB total
+[2021.03.02-03.08.31:444][  0]LogMemory: 
+[2021.03.02-03.08.31:445][  0]LogMemory: Allocator Stats for binned:
+[2021.03.02-03.08.31:445][  0]LogMemory: Current Memory 77.29 MB used, plus 5.71 MB waste
+[2021.03.02-03.08.31:445][  0]LogMemory: Peak Memory 79.58 MB used, plus 5.42 MB waste
+[2021.03.02-03.08.31:445][  0]LogMemory: Current OS Memory 83.00 MB, peak 85.00 MB
+[2021.03.02-03.08.31:445][  0]LogMemory: Current Waste 1.19 MB, peak 1.56 MB
+[2021.03.02-03.08.31:445][  0]LogMemory: Current Used 77.29 MB, peak 79.58 MB
+[2021.03.02-03.08.31:445][  0]LogMemory: Current Slack 4.52 MB
+[2021.03.02-03.08.31:445][  0]LogMemory: Allocs       145039 Current /  879577 Total
+[2021.03.02-03.08.31:445][  0]LogMemory: 
+[2021.03.02-03.08.31:445][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2021.03.02-03.08.31:445][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2021.03.02-03.08.31:445][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2021.03.02-03.08.31:445][  0]LogMemory:         16         7         7      23538       281093      16      16     367K       81K        0K    100.00%
+[2021.03.02-03.08.31:445][  0]LogMemory:         32        12        12      22566        88630      17      32     705K       63K       65K     91.54%
+[2021.03.02-03.08.31:445][  0]LogMemory:         48         8         8       9754        43641      33      48     457K       55K       53K     89.65%
+[2021.03.02-03.08.31:445][  0]LogMemory:         64        21        21      20708        90246      49      64    1294K       50K      133K     90.10%
+[2021.03.02-03.08.31:445][  0]LogMemory:         80        11        11       8760        78540      65      80     684K       20K       38K     94.60%
+[2021.03.02-03.08.31:446][  0]LogMemory:         96         5         5       3288        58178      81      96     308K       12K       26K     91.88%
+[2021.03.02-03.08.31:446][  0]LogMemory:        112         4         5       2227        26189      97     112     243K       13K       19K     92.58%
+[2021.03.02-03.08.31:446][  0]LogMemory:        128        18        18       8635        27294     114     128    1079K       73K       33K     97.14%
+[2021.03.02-03.08.31:446][  0]LogMemory:        160        54        54      21881        76599     129     160    3418K       33K      315K     90.89%
+[2021.03.02-03.08.31:446][  0]LogMemory:        192        24        24       7790        22104     161     192    1460K       75K      106K     93.10%
+[2021.03.02-03.08.31:446][  0]LogMemory:        224         5         5       1286        12938     193     224     281K       39K       19K     94.06%
+[2021.03.02-03.08.31:446][  0]LogMemory:        256         4         4        966        19649     226     256     241K       15K       16K     93.75%
+[2021.03.02-03.08.31:446][  0]LogMemory:        288         4         4        834         7156     257     288     234K       22K       13K     94.92%
+[2021.03.02-03.08.31:446][  0]LogMemory:        320         3         3        489        10335     290     320     152K       40K        3K     98.44%
+[2021.03.02-03.08.31:446][  0]LogMemory:        384        20        20       3347        10055     322     384    1255K       20K      114K     91.09%
+[2021.03.02-03.08.31:446][  0]LogMemory:        448         4         4        528         2982     386     448     231K       25K       18K     92.97%
+[2021.03.02-03.08.31:446][  0]LogMemory:        512         5         5        589         3171     450     512     294K       26K        8K     97.50%
+[2021.03.02-03.08.31:446][  0]LogMemory:        576        30        31       3183         4685     514     576    1790K      117K       80K     95.83%
+[2021.03.02-03.08.31:446][  0]LogMemory:        640         8         8        639         1179     578     640     399K      111K       24K     95.31%
+[2021.03.02-03.08.31:446][  0]LogMemory:        704         9         9        573         1313     642     704     393K      183K       23K     96.01%
+[2021.03.02-03.08.31:446][  0]LogMemory:        768        10        10        543         1084     705     768     407K      231K        6K     99.06%
+[2021.03.02-03.08.31:446][  0]LogMemory:        896         4         4        196          591     769     896     171K       85K        9K     96.48%
+[2021.03.02-03.08.31:446][  0]LogMemory:       1024         7         8        285          876     898    1024     285K      163K       14K     96.88%
+[2021.03.02-03.08.31:446][  0]LogMemory:       1168         6         6        290          667    1025    1168     330K       54K       25K     93.49%
+[2021.03.02-03.08.31:446][  0]LogMemory:       1360         5         5        198         1086    1171    1360     262K       57K       27K     91.56%
+[2021.03.02-03.08.31:446][  0]LogMemory:       1632        11        11        393          760    1361    1632     626K       76K       47K     93.32%
+[2021.03.02-03.08.31:446][  0]LogMemory:       2048        12        13        273         1084    1635    2048     546K      222K       52K     93.23%
+[2021.03.02-03.08.31:446][  0]LogMemory:       2336         5         6        121         1817    2050    2336     276K       44K       30K     90.63%
+[2021.03.02-03.08.31:446][  0]LogMemory:       2720         4         4         80          454    2342    2717     212K       43K       11K     95.70%
+[2021.03.02-03.08.31:446][  0]LogMemory:       3264        10        13        141         1250    2728    3264     449K      189K       29K     95.47%
+[2021.03.02-03.08.31:446][  0]LogMemory:       4096        22        29        207          805    3270    4096     828K      580K       73K     94.82%
+[2021.03.02-03.08.31:446][  0]LogMemory:       4672        13        16        107          401    4103    4672     488K      343K       26K     96.88%
+[2021.03.02-03.08.31:446][  0]LogMemory:       5456        17        24        103          405    4679    5451     548K      539K       47K     95.68%
+[2021.03.02-03.08.31:446][  0]LogMemory:       6544        18        21        129          379    5463    6540     824K      327K       66K     94.27%
+[2021.03.02-03.08.31:446][  0]LogMemory:       8192        13        14         64          927    6553    8192     512K      320K       39K     95.31%
+[2021.03.02-03.08.31:446][  0]LogMemory:       9360         7         8         46          108    8224    9360     420K       28K       24K     94.64%
+[2021.03.02-03.08.31:446][  0]LogMemory:      10912         7         7         37           67    9361   10895     394K       54K       39K     91.29%
+[2021.03.02-03.08.31:446][  0]LogMemory:      13104        12        12         58           91   10922   13056     742K       26K       61K     92.06%
+[2021.03.02-03.08.31:446][  0]LogMemory:      16384        11        13         41          162   13109   16384     656K       48K       48K     93.18%
+[2021.03.02-03.08.31:446][  0]LogMemory:      21840        17        19         50          109   16400   21063    1066K       22K      174K     84.01%
+[2021.03.02-03.08.31:446][  0]LogMemory:      32768        11        13         21           77   21904   32640     672K       32K      147K     79.12%
+[2021.03.02-03.08.31:446][  0]LogMemory:      49152         4         5         14          224       0   49152     672K       96K      208K     72.92%
+[2021.03.02-03.08.31:446][  0]LogMemory:      98304         2         3          8           20       0   97280     768K        0K      177K     76.95%
+[2021.03.02-03.08.31:446][  0]LogMemory: 
+[2021.03.02-03.08.31:446][  0]LogMemory: 32128K allocated in pools (with 4652K slack and 2485K waste). Efficiency 92.27%
+[2021.03.02-03.08.31:446][  0]LogMemory: Allocations 144987 Current / 879422 Total (in 484 pools)
+[2021.03.02-03.08.31:446][  0]LogMemory: 
+[2021.03.02-03.08.31:587][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.03.02-03.08.31:587][  0]LogWorld: Game class is 'mouse_game_mode_C'
+[2021.03.02-03.08.31:596][  0]LogWorld: Bringing World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.03.01-19.08.31
+[2021.03.02-03.08.31:598][  0]LogWorld: Bringing up level for play took: 0.010768
+[2021.03.02-03.08.31:602][  0]LogLoad: Took 0.188209 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2021.03.02-03.08.31:603][  0]LogInit:Display: Game Engine Initialized.
+[2021.03.02-03.08.31:805][  0]LogLoad: Full Startup: 4.74 seconds (BP compile: 0.00 seconds)
+[2021.03.02-03.08.31:805][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.03.02-03.08.31:825][  0]LogOcInput: OculusInput pre-init called
+[2021.03.02-03.08.31:969][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2021.03.02-03.08.32:103][  1]LogRenderer: Reallocating scene render targets to support 1368x768 (Frame:2).
+[2021.03.02-03.11.54:423][623]LogScript:Warning: Attempted to access left_arrow via property left_arrow, but left_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test2
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:08C4
+[2021.03.02-03.11.54:423][623]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__right_arrow_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.11.54:423][623]LogScript:Warning: Attempted to access left_arrow via property left_arrow, but left_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test2
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:08EA
+[2021.03.02-03.11.54:423][623]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__right_arrow_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.11.54:423][623]LogScript:Warning: Attempted to access right_arrow via property right_arrow, but right_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test2
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:0915
+[2021.03.02-03.11.54:424][623]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__right_arrow_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.11.54:424][623]LogScript:Warning: Attempted to access right_arrow via property right_arrow, but right_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test2
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:093B
+[2021.03.02-03.11.54:424][623]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__right_arrow_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.13.55:525][380]LogScript:Warning: Attempted to access left_arrow via property left_arrow, but left_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test7
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:08C4
+[2021.03.02-03.13.55:526][380]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__left_arrow_K2Node_ComponentBoundEvent_0_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.13.55:526][380]LogScript:Warning: Attempted to access left_arrow via property left_arrow, but left_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test7
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:08EA
+[2021.03.02-03.13.55:526][380]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__left_arrow_K2Node_ComponentBoundEvent_0_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.13.55:526][380]LogScript:Warning: Attempted to access right_arrow via property right_arrow, but right_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test7
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:0915
+[2021.03.02-03.13.55:527][380]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__left_arrow_K2Node_ComponentBoundEvent_0_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.13.55:527][380]LogScript:Warning: Attempted to access right_arrow via property right_arrow, but right_arrow is pending kill
+	Checker_Blueprint_black_test_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Checker_Blueprint_black_test7
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows:093B
+[2021.03.02-03.13.55:527][380]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:BndEvt__left_arrow_K2Node_ComponentBoundEvent_0_ComponentOnClickedSignature__DelegateSignature
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:ExecuteUbergraph_Checker_Blueprint
+	Function /Game/Blueprints/Checker_Blueprint.Checker_Blueprint_C:check_arrows
+
+[2021.03.02-03.14.31:650][188]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2021.03.02-03.14.31:650][188]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2021.03.02-03.14.31:732][188]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.03.02-03.14.31:732][188]LogMemory: Process Physical Memory: 478.80 MB used, 496.16 MB peak
+[2021.03.02-03.14.31:732][188]LogMemory: Process Virtual Memory: 551.92 MB used, 638.29 MB peak
+[2021.03.02-03.14.31:732][188]LogMemory: Physical Memory: 4594.12 MB used, 8057.88 MB total
+[2021.03.02-03.14.31:732][188]LogMemory: Virtual Memory: 5115.21 MB used, 134217728.00 MB total
+[2021.03.02-03.14.31:732][188]LogMemory: 
+[2021.03.02-03.14.31:734][188]LogMemory: Allocator Stats for binned:
+[2021.03.02-03.14.31:734][188]LogMemory: Current Memory 87.33 MB used, plus 8.30 MB waste
+[2021.03.02-03.14.31:734][188]LogMemory: Peak Memory 98.24 MB used, plus 5.58 MB waste
+[2021.03.02-03.14.31:734][188]LogMemory: Current OS Memory 95.63 MB, peak 103.81 MB
+[2021.03.02-03.14.31:734][188]LogMemory: Current Waste 1.56 MB, peak 1.76 MB
+[2021.03.02-03.14.31:734][188]LogMemory: Current Used 87.33 MB, peak 98.24 MB
+[2021.03.02-03.14.31:734][188]LogMemory: Current Slack 6.74 MB
+[2021.03.02-03.14.31:734][188]LogMemory: Allocs       151857 Current /  4909410 Total
+[2021.03.02-03.14.31:734][188]LogMemory: 
+[2021.03.02-03.14.31:734][188]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2021.03.02-03.14.31:734][188]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2021.03.02-03.14.31:734][188]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2021.03.02-03.14.31:734][188]LogMemory:         16         7         7      23967       477515      16      16     374K       74K        0K    100.00%
+[2021.03.02-03.14.31:734][188]LogMemory:         32        13        13      25654       305847      17      32     801K       31K       55K     93.39%
+[2021.03.02-03.14.31:734][188]LogMemory:         48         9         9      10744       333802      33      48     503K       73K       23K     96.01%
+[2021.03.02-03.14.31:734][188]LogMemory:         64        23        23      21141       305142      49      64    1321K      151K       63K     95.72%
+[2021.03.02-03.14.31:734][188]LogMemory:         80        12        12       8927       114516      65      80     697K       71K       36K     95.31%
+[2021.03.02-03.14.31:734][188]LogMemory:         96         7         7       3478      1532149      81      96     326K      122K       27K     93.97%
+[2021.03.02-03.14.31:734][188]LogMemory:        112         5         5       2340       839801      97     112     255K       65K        0K    100.00%
+[2021.03.02-03.14.31:734][188]LogMemory:        128        19        20       8733        44470     114     128    1091K      125K       26K     97.86%
+[2021.03.02-03.14.31:734][188]LogMemory:        160        56        58      22102       112933     129     160    3453K      126K      273K     92.38%
+[2021.03.02-03.14.31:734][188]LogMemory:        192        26        26       8095       147510     161     192    1517K      146K      101K     93.93%
+[2021.03.02-03.14.31:734][188]LogMemory:        224         6         7       1331        93305     193     224     291K       93K       15K     96.09%
+[2021.03.02-03.14.31:734][188]LogMemory:        256         6         6       1061        25668     226     256     265K      119K       17K     95.57%
+[2021.03.02-03.14.31:734][188]LogMemory:        288         5         5        852         9198     257     288     239K       81K       13K     95.94%
+[2021.03.02-03.14.31:734][188]LogMemory:        320         3         3        493        36807     290     320     154K       38K        1K     99.48%
+[2021.03.02-03.14.31:734][188]LogMemory:        384        24        24       3417       147263     321     384    1281K      249K      101K     93.42%
+[2021.03.02-03.14.31:734][188]LogMemory:        448         6         7        538        25188     386     448     235K      149K       19K     95.05%
+[2021.03.02-03.14.31:734][188]LogMemory:        512         7         7        597         7076     450     512     298K      150K        6K     98.66%
+[2021.03.02-03.14.31:734][188]LogMemory:        576        33        33       3233        16105     514     576    1818K      280K      138K     93.47%
+[2021.03.02-03.14.31:734][188]LogMemory:        640         8         8        644         3604     578     640     402K      108K       17K     96.68%
+[2021.03.02-03.14.31:734][188]LogMemory:        704         9         9        589        18309     642     704     404K      172K       22K     96.18%
+[2021.03.02-03.14.31:734][188]LogMemory:        768        10        10        568        10996     705     768     426K      212K       11K     98.28%
+[2021.03.02-03.14.31:734][188]LogMemory:        896         5         5        221         1067     769     896     193K      127K       10K     96.88%
+[2021.03.02-03.14.31:734][188]LogMemory:       1024        10        10        290       191379     897    1024     290K      350K        3K     99.53%
+[2021.03.02-03.14.31:734][188]LogMemory:       1168         8         9        326        12516    1025    1168     371K      140K       33K     93.55%
+[2021.03.02-03.14.31:734][188]LogMemory:       1360         7         7        212         4066    1169    1360     281K      166K       16K     96.43%
+[2021.03.02-03.14.31:734][188]LogMemory:       1632        14        14        409        14412    1361    1632     651K      242K       37K     95.87%
+[2021.03.02-03.14.31:734][188]LogMemory:       2048        16        20        306         5491    1634    2048     612K      412K       78K     92.38%
+[2021.03.02-03.14.31:734][188]LogMemory:       2336         6         6        127         2240    2050    2336     289K       95K       29K     92.45%
+[2021.03.02-03.14.31:734][188]LogMemory:       2720         6         6         91          581    2340    2720     241K      142K       13K     96.61%
+[2021.03.02-03.14.31:734][188]LogMemory:       3264        10        13        169         1598    2728    3264     538K      100K       36K     94.38%
+[2021.03.02-03.14.31:734][188]LogMemory:       4096        22        29        277         9378    3270    4096    1108K      300K      189K     86.58%
+[2021.03.02-03.14.31:734][188]LogMemory:       4672        13        16        109          596    4100    4672     497K      334K       22K     97.36%
+[2021.03.02-03.14.31:734][188]LogMemory:       5456        17        24        128          527    4679    5451     682K      405K       57K     94.76%
+[2021.03.02-03.14.31:734][188]LogMemory:       6544        20        21        160          481    5463    6540    1022K      257K       81K     93.67%
+[2021.03.02-03.14.31:734][188]LogMemory:       8192        13        15         71         9299    6552    8192     568K      264K       78K     90.63%
+[2021.03.02-03.14.31:734][188]LogMemory:       9360         8         9         51          146    8224    9360     466K       46K       27K     94.73%
+[2021.03.02-03.14.31:734][188]LogMemory:      10912         7         7         36         8367    9361   10895     383K       65K       23K     94.87%
+[2021.03.02-03.14.31:734][188]LogMemory:      13104        17        17         79          133   10922   13056    1010K       78K       87K     92.00%
+[2021.03.02-03.14.31:734][188]LogMemory:      16384        14        16         48         1257   13109   16384     768K      128K       11K     98.77%
+[2021.03.02-03.14.31:734][188]LogMemory:      21840        20        26         52          149   16400   21784    1109K      171K      175K     86.33%
+[2021.03.02-03.14.31:734][188]LogMemory:      32768        16        31         26          132   21868   32640     832K      192K      210K     79.49%
+[2021.03.02-03.14.31:734][188]LogMemory:      49152         7         8         22          260       0   49152    1056K      288K      322K     76.04%
+[2021.03.02-03.14.31:734][188]LogMemory:      98304         2         3          8           23       0   97280     768K        0K      177K     76.95%
+[2021.03.02-03.14.31:734][188]LogMemory: 
+[2021.03.02-03.14.31:734][188]LogMemory: 36864K allocated in pools (with 6937K slack and 2678K waste). Efficiency 92.74%
+[2021.03.02-03.14.31:734][188]LogMemory: Allocations 151723 Current / 4871303 Total (in 552 pools)
+[2021.03.02-03.14.31:735][188]LogMemory: 
+[2021.03.02-03.14.32:006][188]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.03.02-03.14.32:006][188]LogWorld: Game class is 'mouse_game_mode_C'
+[2021.03.02-03.14.32:012][188]LogWorld: Bringing World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.03.01-19.14.32
+[2021.03.02-03.14.32:016][188]LogWorld: Bringing up level for play took: 0.008775
+[2021.03.02-03.14.32:032][188]LogLoad: Took 0.381654 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2021.03.02-03.14.36:080][268]r.SetRes = "640x480"
+[2021.03.02-03.14.44:954][461]r.SetRes = "640x480"
+[2021.03.02-03.14.52:245][620]r.SetRes = "1280x720"
+[2021.03.02-03.14.56:348][710]r.SetRes = "640x480"
+[2021.03.02-03.14.57:865][743]r.SetRes = "640x480"
+[2021.03.02-03.15.00:981][811]r.SetRes = "640x480"
+[2021.03.02-03.15.01:702][827]r.SetRes = "640x480"
+[2021.03.02-03.15.03:087][857]r.SetRes = "1280x720"
+[2021.03.02-03.15.03:921][875]r.SetRes = "1280x720"
+[2021.03.02-03.15.05:712][914]r.SetRes = "1920x1080"
+[2021.03.02-03.15.06:447][930]r.SetRes = "1920x1080"
+[2021.03.02-03.15.21:400][257]Closing by request
+[2021.03.02-03.15.21:400][257]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.03.02-03.15.21:445][258]LogMoviePlayer: Shutting down movie player
+[2021.03.02-03.15.22:153][258]LogSlate: Window 'MyFirstProject (64-bit, PCD3D_SM5)' being destroyed
+[2021.03.02-03.15.22:153][258]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.03.02-03.15.22:330][258]LogExit: Preparing to exit.
+[2021.03.02-03.15.22:430][258]LogExit: Game engine shut down
+[2021.03.02-03.15.22:511][258]LogObj: Freed 32b from 1 cluster array pools.
+[2021.03.02-03.15.22:511][258]LogExit: Object subsystem successfully closed.
+[2021.03.02-03.15.22:519][258]LogD3D11RHI: Shutdown
+[2021.03.02-03.15.22:519][258]LogD3D11RHI: CleanupD3DDevice
+[2021.03.02-03.15.22:604][258]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.03.02-03.15.22:604][258]LogModuleManager: Shutting down and abandoning module AutomationController (62)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module AutomationWorker (61)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module CharacterAI (60)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module SessionServices (59)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module GameplayDebugger (58)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module AIModule (57)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (56)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module AnalyticsET (55)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module Analytics (54)
+[2021.03.02-03.15.22:605][258]LogModuleManager: Shutting down and abandoning module ProfilerService (50)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module TaskGraph (49)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module HTML5Networking (48)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (47)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module CableComponent (46)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (45)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module OculusInput (44)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module OculusLibrary (43)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (42)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module SteamVRController (41)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module SteamVR (40)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module SlateRemote (39)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module Paper2D (38)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (37)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module UdpMessaging (36)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module Media (35)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module WmfMedia (34)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (33)
+[2021.03.02-03.15.22:639][258]LogModuleManager: Shutting down and abandoning module ImageWrapper (32)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module MediaAssets (31)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (30)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module UMG (29)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module SlateReflector (28)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module Slate (27)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module Messaging (26)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (25)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module XAudio2 (24)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module Networking (22)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module Core (21)
+[2021.03.02-03.15.22:640][258]LogModuleManager: Shutting down and abandoning module AssetRegistry (20)
+[2021.03.02-03.15.22:641][258]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2021.03.02-03.15.22:641][258]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2021.03.02-03.15.22:641][258]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2021.03.02-03.15.27:160][258]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2021.03.02-03.15.27:160][258]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2021.03.02-03.15.27:160][258]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2021.03.02-03.15.27:160][258]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2021.03.02-03.15.27:160][258]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.03.02-03.15.27:161][258]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.03.02-03.15.27:162][258]LogExit: Exiting.
+[2021.03.02-03.15.27:163][258]Log file closed, 03/01/21 19:15:27
